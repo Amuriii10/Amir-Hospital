@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui;
+}
+
+/* ይህ መስመር ነጭ ገጹን ያስታክለዋል */
+@layer base {
+  body {
+    @apply bg-white text-slate-900;
+  }
+}
+
+:root {
+  --luxury-blue: #2563eb;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #fcfcfd;
+}
+
+/* Luxury Glass Effect */
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Custom Selection Color */
+::selection {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--luxury-blue);
+}
+
+/* Smooth Image Hover */
+.luxury-card img {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.luxury-card:hover img {
+  transform: scale(1.08);
+}
