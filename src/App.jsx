@@ -1074,7 +1074,7 @@ const RealHomePage = ({ onReset }) => {
 
             <div className="group bg-white rounded-2xl border border-slate-200/60 shadow-sm overflow-hidden flex flex-col transition-all duration-300">
               <div className="h-56 overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1579152276506-44093257008d?q=80&w=800" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 ease-out" alt="Lab Technology" />
+                <img src="https://images.unsplash.com/photo-1602052577122-f73b9710adba?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 ease-out" alt="Lab Technology" />
               </div>
               <div className="p-8">
                 <h4 className="text-6xl font-black text-slate-900 tracking-tighter italic mb-2">25k<span className="text-blue-600">+</span></h4>
